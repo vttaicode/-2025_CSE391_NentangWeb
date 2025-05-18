@@ -1,0 +1,69 @@
+/* App.css */
+
+/* Toàn bộ body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container bao bọc tất cả các phần */
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 900px;
+}
+
+/* Tiêu đề chính */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Thiết kế cho các phần tử Counter */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Định dạng Profile Card */
+.profile-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  margin: 10px auto;
+  background-color: #fff;
+}
+
+.profile-card img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-card h4 {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
